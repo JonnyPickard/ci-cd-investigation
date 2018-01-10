@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/JonnyPickard/ci-cd-investigation/issues"
   },
-  "homepage": "https://github.com/JonnyPickard/ci-cd-investigation#readme"
+  "homepage": "https://github.com/JonnyPickard/ci-cd-investigation#readme",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.0.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
