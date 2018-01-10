@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:carbon
     steps:
       - checkout
+      - run: npm test
   test:
     docker:
       - image: circleci/node:carbon
